@@ -71,7 +71,7 @@ $(function () {
                 }
                 // layer.msg('获取成功')
                 console.log('获取成功');
-                $('#image').attr('src',res.data.)
+                $('#image').attr('src', res.data.user_pic)
                 window.parent.getUserInfo()
             }
         })
